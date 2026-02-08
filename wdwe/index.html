@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where Are We From?</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Where Are We From?</h1>
+    <p>A forum for existential theories</p>
+    <nav>
+      <a href="login.html">Login/Signup</a>
+      <a href="post.html" id="post-link" style="display: none;">Create Post</a>
+      <button id="logout-btn" style="display: none;">Logout</button>
+    </nav>
+  </header>
+  <main>
+    <div id="posts-container"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+</body>
+</html>
